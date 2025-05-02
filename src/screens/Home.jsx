@@ -2,6 +2,11 @@ import Navbar from "../components/Navbar";
 import Gov_Video from '../assets/gov_video.mp4';
 
 function Home() {
+
+  const handlePoll = () => {
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSfN6uk8U87lSMNz1EHhM90i8I4qZkWJSFXVcmRBKTsm00VAWQ/viewform?usp=header", '_blank');
+  };
+
   return (
     <>
       <Navbar />
@@ -59,6 +64,12 @@ function Home() {
             </p>
           </div>
           
+        </div>
+
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}>
+          <div style={{backgroundColor: 'crimson', padding: 10, borderRadius: 15}} onClick={handlePoll}>
+            <p>Poll Click Here</p>
+          </div>
         </div>
       </div>
     </>
