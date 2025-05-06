@@ -10,6 +10,7 @@ function Navbar() {
         <div style={{ display: 'flex', gap: '1rem' }}>
           <Link to="/" style={{ color: 'white', textDecoration: 'none', fontSize: '1.2rem' }}>Home</Link>
           <Link to="/articles" style={{ color: 'white', textDecoration: 'none', fontSize: '1.2rem' }}>Articles</Link>
+          <Link to="/updates" style={{ color: 'white', textDecoration: 'none', fontSize: '1.2rem' }}>Updates</Link>
         </div>
       </div>
     </nav>
